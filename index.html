@@ -1,0 +1,1485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Makasar&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="icon.icon"/>
+    <title>1TRAVEL</title>
+</head>
+<body>
+    <nav class="container-fluid navbar navbar-expand-lg fixed-top darkblue">
+        <!--fixed-top,fixed-bottom and sticky-top,sticky-bottom-->
+        <div class="container-fluid mx-5 p-2">
+            <a class="navbar-brand" href="">
+                <h1 class="text-light font1"><i>1TRAVEL <i class="fa-solid fa-location-dot text-danger"></i></i><sub></sub></i></h1>
+            </a>
+            <!--Navbar Title-->
+            <!--navigation button-->
+            <button class="navbar-toggler bg-light" data-bs-toggle="collapse" data-bs-target="#navigation10">
+                <span class="navbar-toggler-icon bg-light"></span>
+            </button>
+            <!--navigation button-->
+            <!--navigation list-->
+            <div class="collapse navbar-collapse list" id="navigation10">
+                <ul class="navbar-nav ms-auto h5">
+                    <li class="nav-item">
+                        <a class="nav-link font text-light space" href="index.html">
+                            <b>Home</b>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle font text-light space" href="" id="dropdownsample" data-bs-toggle="dropdown">
+                           <b>Municipalities</b> 
+                        </a>
+                        <ul class="dropdown-menu bg=light">
+                            <li>
+                                <a href="" class="dropdown-item text-dark">
+                                    Abucay
+                                </a>
+                                <a href="" class="dropdown-item text-dark">
+                                    Bagac
+                                </a>
+                                <a href="" class="dropdown-item text-dark">
+                                    Balanga City
+                                </a>
+                                <a href="" class="dropdown-item text-dark">
+                                    Dinalupihan
+                                </a>
+                                <a href="" class="dropdown-item text-dark">
+                                    Hermosa
+                                </a>
+                                <a href="" class="dropdown-item text-dark">
+                                    Mariveles
+                                </a>
+                                <a href="" class="dropdown-item text-dark">
+                                    Morong
+                                </a>
+                                <a href="" class="dropdown-item text-dark">
+                                    Orani
+                                </a>
+                                <a href="" class="dropdown-item text-dark">
+                                    Orion
+                                </a>
+                                <a href="" class="dropdown-item text-dark">
+                                    Pilar
+                                </a>
+                                <a href="" class="dropdown-item text-dark">
+                                    Samal
+                                </a>
+                            </li>
+                        </ul>
+                    </li> 
+                    <li class="nav-item">
+                        <a  href="about.html" class="nav-link font text-light space">
+                            <b>About</b>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link font text-light space" >
+                            <b>Contact</b>
+                        </a>
+                    </li>             
+                </ul>
+            </div>
+            <!--end of nav list-->
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--start Search bar-->
+    <div class="container bckgrnd">
+        <div class="row">
+            <div class="col-12">&nbsp</div>
+        </div>
+    </div>
+    <div class="container bckgrnd p-2">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-8"> 
+                <h5 class="font text-start">
+                    <a href="https://www.facebook.com/1Bataan" target="_blank" rel="noopener no-referrer" class="btn btn-outline-none"light><i class="fa-brands fa-facebook h2 text-primary"></i></a>
+                    <a href="https://www.youtube.com/@1Bataan" target="_blank" rel="noopener no-referrer" class="btn btn-outline-none"><i class="fa-brands fa-youtube h2 text-danger"></i></a>
+                    <a href="https://twitter.com/1Bataan" target="_blank" rel="noopener no-referrer" class="btn btn-outline-none"><i class="fa-brands fa-twitter h2 text-info"></i></a>
+                    <a href="https://www.tiktok.com/@1bataan_" target="_blank" rel="noopener no-referrer" class="btn btn-outline-none"> <i class="fa-brands fa-tiktok h2 text-dark"> </i></a>    
+                </h5>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="input-group w-100">
+                    <button class="btn btn-primary font"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input type="text" class="form-control" placeholder="Find your location here.....">
+                </div>  
+            </div>
+        </div>
+    </div>
+    <!--end search bar-->
+ <!--start of carousel-->
+    <div class="container bckgrnd">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+                <div id="carouselSample" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button data-bs-target="#carouselSample" data-bs-slide-to="0" class="active">
+                        </button>
+            
+                        <button data-bs-target="#carouselSample" data-bs-slide-to="1">   
+                        </button>
+            
+                        <button data-bs-target="#carouselSample" data-bs-slide-to="2">
+                        </button>
+            
+                        <button data-bs-target="#carouselSample" data-bs-slide-to="3">    
+                        </button>
+            
+                        <button data-bs-target="#carouselSample" data-bs-slide-to="4"> 
+                        </button>
+            
+                        <button data-bs-target="#carouselSample" data-bs-slide-to="5">  
+                        </button>
+                    </div>
+                    <!--in programing always start in 0 on counting-->             
+                    <!--carousel body-->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <img src="carousel/bataan-travel-guide.jpg" class="d-block w-100" alt="">
+                            <div class="carousel-caption d-block d-none d-md-block">
+                                <h3></h3>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="carousel/bunker.jpg" class="d-block w-100" alt="">
+                            <div class="carousel-caption d-block">
+                                <h1 class="shadow font w-50">The Bunker Government Center</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="carousel/capitol.jpg" class="d-block w-100" alt="">
+                            <div class="carousel-caption d-block">
+                                <h1 class="shadow font w-50">Provincial Capitol</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="carousel/dambana.jpg" class="d-block w-100" alt="">
+                            <div class="carousel-caption d-block">
+                                <h1 class="shadow font w-50">Mount Samat National Shrine of Valor</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="carousel/death.jpg" class="d-block w-100" alt="">
+                            <div class="carousel-caption d-block">
+                                <h1 class="shadow font w-50">Kilometer Zero (Death March)</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="carousel/lascasas.jpg" class="d-block w-100" alt="">
+                            <div class="carousel-caption d-block">
+                                <h1 class="shadow font w-50">Las Casas Filipinas de Acuzar</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselSample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselSample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-dark"></span>
+                    </button>
+                </div>
+            </div>           
+        </div>
+        <br>
+    </div>
+    <!--end of carousel-->
+    <!--strat of introduction videos-->
+    <div class="container bckgrnd">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-3 text-center"  class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/-jP2zpv7ReE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="col-12 col-md-12 col-lg-3 text-center"  class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/9TJO_p--xME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="col-12 col-md-12 col-lg-3 text-center"  class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/Gpc0QOD0EuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="col-12 col-md-12 col-lg-3 text-center"  class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/q1iaEfKEOKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <!--end of introductions videos-->
+    <!--start of tourist spots-->
+    <div class="container font  bckgrnd text-dark">
+        <br><br>
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center font"><b>"BATAAN TOURIST SPOTS"</b></h1>
+            </div>
+            <div class="row g-3">
+                <!--gx for left and right  and gy for top and botom g for both-->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="tourist/deathmarch.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title ">Zero Km. Death March Marker</h3>
+                            <h5 class="card-subtitle text-secondary">Category: Hystorical Landmark</h5>
+                            <hr>
+                            <p class="card-text">The Zero Km. Death March Marker was the starting point of the Bataan Death March in Bagac in 1942. A similar marker can be found in Mariveles. There are two (2) Zero Km. Death March Marker, one in the Free Port town of Mariveles and the other is in the beach town of Bagac, the largest town in Bataan. A Philippine Japan Friendship tower is also erected at Bagac.</p>
+                            <p class="card-text">Address: Diwa, Pilar, Bataan</p>
+                            <p class="card-text">Contact: (047) 237 3488 (Bataan Tourism Hotline)</p>
+                            <a href="https://www.bataan.gov.ph/behold-bataan/zero-km-death-march-marker/" target="_blank" rel="noopener no-referrer" class="btn btn-primary bottom" type="button"><i class="fa-solid fa-eye"></i> Visit Page</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="tourist/lascasas.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Las Casas Filipinas de Acuzar</h3>
+                            <h5 class="card-subtitle text-secondary">Category: Hotels & Beach Resort</h5>
+                            <hr>
+                            <p class="card-text">Las Casas Filipinas de Acuzar is a beach resort, convention center and heritage destination all rolled into one. Consisting of 216 guest rooms that range from Deluxe to Executive Suites as well as 60 bookable Private Casas, each with its own distinct character and history.</p>
+                            <p class="card-text">Address: Brgy. Ibaba Bagac, Bataan</p>
+                            <p class="card-text">Contact: +63288333333</p>
+                            <a href="https://lascasasfilipinas.com/Home" target="_blank" rel="noopener no-referrer" class="btn btn-primary bottom" type="button"><i class="fa-solid fa-eye"></i> Visit Page</a>
+                        </div>
+                    </div>               
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="tourist/nationalpark.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Bataan National Park</h3>
+                            <h5 class="card-subtitle text-secondary">Category: Eco Tourism</h5>
+                            <hr>
+                            <p class="card-text">Bataan National Park is a protected area of the Philippines located in the mountainous interior of Bataan province in the Central Luzon Region. The park straddles the northern half of Bataan Peninsula near its border with Subic Bay Freeport Zone. The park was first established in 1945 under Proclamation No. 24 with an initial area of 31,000 hectares and included portions of the fenced area of Subic Bay Freeport Zone. The park was reduced in 1987 to its present size of 23,688 hectares (58,530 acres) and is now wholly located in Bataan province. The park encompasses the Bataan towns and cities of Hermosa, Orani, Samal, Abucay, Balanga, Bagac and Morong.</p>
+                            <p class="card-text">Address: Hermosa, Orani, Samal, Balanga, Bagac and Morong</p>
+                            <p class="card-text">Contact: (047) 237 3488 (Bataan Tourism Hotline)</p>
+                            <a href="https://en.wikipedia.org/wiki/Bataan_National_Park" target="_blank" rel="noopener no-referrer" class="btn btn-primary bottom" type="button"><i class="fa-solid fa-eye"></i> Visit Page</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="tourist/pawikan.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Pawikan Conservation Center</h3>
+                            <h5 class="card-subtitle text-secondary">Category: Eco Tourism</h5>
+                            <hr>
+                            <p class="card-text">Pawikan Conservation Center is a home devoted to raise awareness about the preservation and propagation of endangered marine turtles aptly called Olive Ridley. The coastline where the Pawikan Conservation Center sits is place to the original nesting sites of these endangered species. It is managed by the people who used to be Poachers turned into protectors of these sea creatures.</p>
+                            <p class="card-text">Address: Pilar, Bataan</p>
+                            <p class="card-text">Contact: (047) 237 3488 (Bataan Tourism Hotline)</p>
+                            <a href="https://www.bataan.gov.ph/behold-bataan/pawikan-conservation-center/" target="_blank" rel="noopener no-referrer" class="btn btn-primary bottom" type="button"><i class="fa-solid fa-eye"></i> Visit Page</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="tourist/samat.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Mt. Samat National Shrine</h3>
+                            <h5 class="card-subtitle text-secondary">Category: Hystorical Landmark</h5>
+                            <hr>
+                            <p class="card-text">Mount Samat National Shrine (Tagalog pronunciation: [samat]) or Dambana ng Kagitingan (Shrine of Valor) is a historical shrine located near the summit of Mount Samat in the town of Pilar, Province of Bataan, in the Republic of the Philippines. The memorial shrine complex was built to honor and remember the gallantry of Filipino and American soldiers who fought against the Imperial Japanese Army during World War II.</p>
+                            <p class="card-text">Address: Diwa, Pilar, Bataan</p>
+                            <p class="card-text">Contact: (047) 237 3488 (Bataan Tourism Hotline)</p>
+                            <a href="https://www.bataan.gov.ph/behold-bataan/mt-samat-national-shrine/" target="_blank" rel="noopener no-referrer" class="btn btn-primary bottom" type="button"><i class="fa-solid fa-eye"></i> Visit Page</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="tourist/vista.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Vista Tala Resort</h3>
+                            <h5 class="card-subtitle text-secondary">Category: Hotels & Beach Resort</h5>
+                            <hr>
+                            <p class="card-text">Vista Tala is a Resort and Recreational Park; an ideal venue for new adventure, relaxation, nature escapades and family recreational gatherings. This Day Tour is inclusive of Entrance, use of swimming facilities and the exciting 700 Steps River Trekking.</p>
+                            <p class="card-text">Address: Brgy. Tala Orani Bataan, Orani, 2113</p>
+                            <p class="card-text">Contact: +639999904680</p>
+                            <a href="https://www.facebook.com/vistatalaofficial" target="_blank" rel="noopener no-referrer" class="btn btn-primary bottom" type="button"><i class="fa-solid fa-eye"></i> Visit Page</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+    </div>
+<!--end of tourist spots-->
+    <!--start of BEST BATAAN FOOD-->
+    <div class="container font  bckgrnd text-light">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center font text-dark"><b>"BATAAN BEST FOOD & RESTAURANTS"</b></h1>
+            </div>
+            <div class="row g-3 ">
+                <!--gx for left and right  and gy for top and botom g for both-->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="food/beanery (2).jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">The Beanery</h3>
+                            <hr>
+                            <h5 class="card-subtitle">Details</h5>
+                            <br>
+                            <p class="card-text"><b>CUISINES:</b> Filipino, Cafe</p>
+                            <p class="card-text"><b>MEALS:</b> Breakfast, Lunch, Dinner, Brunch</p>
+                            <p class="card-text"><b>DELIVERY SERVICES:</b> Grab Food, Food Panda & OrderMo</p>
+                            <h5>Ratings</h5>
+                            <div class="height-100 container d-flex justify-content-center align-items-center">                               
+                                <div class="card p-3 stars">           
+                                    <div class="mt-1 d-flex justify-content-between align-items-center">
+                                        <h5 class="review-stat"><i class="fa-solid fa-utensils"></i> Food</h5>
+                                        <div class="small-ratings">
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                        </div>
+                                    </div>                                                                      
+                                    <div class="mt-1 d-flex justify-content-between align-items-center">
+                                        <h5 class="review-stat"><i class="fa-solid fa-bell-concierge"></i> Service</h5>
+                                        <div class="small-ratings">
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>                                    
+                                    <div class="mt-1 d-flex justify-content-between align-items-center">
+                                        <h5 class="review-stat"><i class="fa-solid fa-tag"></i>Price</h5>
+                                        <div class="small-ratings">
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>     
+                            </div>
+                            <a href="https://www.facebook.com/BeaneryBataan" target="_blank" rel="noopener no-referrer" class="btn btn-primary bottom" type="button"><i class="fa-solid fa-eye"></i> Visit Page</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="food/lolengs.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Loleng's Hutieu-an</h3>
+                            <hr>
+                            <h5 class="card-subtitle">Details</h5>
+                            <br>
+                            <p class="card-text"><b>CUISINES:</b> Asian, Vietnamese, Filipino, Soups</p>
+                            <p class="card-text"><b>MEALS:</b> Breakfast, Lunch, Dinner, Brunch</p>
+                            <p class="card-text"><b>DELIVERY SERVICES:</b> Grab Food, Food Panda & OrderMo</p>
+                            <h5>Ratings</h5>
+                            <div class="height-100 container d-flex justify-content-center align-items-center">                               
+                                <div class="card p-3 stars">           
+                                    <div class="mt-1 d-flex justify-content-between align-items-center">
+                                        <h5 class="review-stat"><i class="fa-solid fa-utensils"></i> Food</h5>
+                                        <div class="small-ratings">
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                        </div>
+                                    </div>                                                                      
+                                    <div class="mt-1 d-flex justify-content-between align-items-center">
+                                        <h5 class="review-stat"><i class="fa-solid fa-bell-concierge"></i> Service</h5>
+                                        <div class="small-ratings">
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                        </div>
+                                    </div>                                    
+                                    <div class="mt-1 d-flex justify-content-between align-items-center">
+                                        <h5 class="review-stat"><i class="fa-solid fa-tag"></i>Price</h5>
+                                        <div class="small-ratings">
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                        </div>
+                                    </div>
+                                </div>     
+                            </div>
+                            <a href="https://www.facebook.com/profile.php?id=100064029698271" target="_blank" rel="noopener no-referrer" class="btn btn-primary bottom" type="button"><i class="fa-solid fa-eye"></i> Visit Page</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="food/sampalukan.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Sampalukan Restaurant</h3>
+                            <hr>
+                            <h5 class="card-subtitle">Details</h5>
+                            <br>
+                            <p class="card-text"><b>CUISINES:</b> Filipino, Asian</p>
+                            <p class="card-text"><b>MEALS:</b> Dinner</p>
+                            <p class="card-text"><b>DELIVERY SERVICES:</b> Grab Food, Food Panda & OrderMo</p>
+                            <h5>Ratings</h5>
+                            <div class="height-100 container d-flex justify-content-center align-items-center">                               
+                                <div class="card p-3 stars">           
+                                    <div class="mt-1 d-flex justify-content-between align-items-center">
+                                        <h5 class="review-stat"><i class="fa-solid fa-utensils"></i> Food</h5>
+                                        <div class="small-ratings">
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>                                                                      
+                                    <div class="mt-1 d-flex justify-content-between align-items-center">
+                                        <h5 class="review-stat"><i class="fa-solid fa-bell-concierge"></i> Service</h5>
+                                        <div class="small-ratings">
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                        </div>
+                                    </div>                                    
+                                    <div class="mt-1 d-flex justify-content-between align-items-center">
+                                        <h5 class="review-stat"><i class="fa-solid fa-tag"></i>Price</h5>
+                                        <div class="small-ratings">
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>     
+                            </div>
+                            <a href="https://www.facebook.com/sampalukanrestaurant" target="_blank" rel="noopener no-referrer" class="btn btn-primary bottom" type="button"><i class="fa-solid fa-eye"></i> Visit Page</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="food/bibingka.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Merly's Special Bibingka</h3>
+                            <hr>
+                            <h5 class="card-subtitle">Details</h5>
+                            <br>
+                            <p class="card-text"><b>CUISINES:</b> Filipino, Dessert</p>
+                            <p class="card-text"><b>MEALS:</b> </p>
+                            <p class="card-text"><b>DELIVERY SERVICES:</b> Grab Food, Food Panda & OrderMo</p>
+                            <h5>Ratings</h5>
+                            <div class="height-100 container d-flex justify-content-center align-items-center">                               
+                                <div class="card p-3 stars">           
+                                    <div class="mt-1 d-flex justify-content-between align-items-center">
+                                        <h5 class="review-stat"><i class="fa-solid fa-utensils"></i> Food</h5>
+                                        <div class="small-ratings">
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                        </div>
+                                    </div>                                                                      
+                                    <div class="mt-1 d-flex justify-content-between align-items-center">
+                                        <h5 class="review-stat"><i class="fa-solid fa-bell-concierge"></i> Service</h5>
+                                        <div class="small-ratings">
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                        </div>
+                                    </div>                                    
+                                    <div class="mt-1 d-flex justify-content-between align-items-center">
+                                        <h5 class="review-stat"><i class="fa-solid fa-tag"></i>Price</h5>
+                                        <div class="small-ratings">
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                        </div>
+                                    </div>
+                                </div>     
+                            </div>
+                            <a href="https://www.facebook.com/merlyskakanin/" target="_blank" rel="noopener no-referrer" class="btn btn-primary bottom" type="button"><i class="fa-solid fa-eye"></i> Visit Page</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="food/pianono.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Mike-Len's Pianono</h3>
+                            <hr>
+                            <h5 class="card-subtitle">Details</h5>
+                            <br>
+                            <p class="card-text"><b>CUISINES:</b> Filipino, Dessert</p>
+                            <p class="card-text"><b>MEALS:</b> </p>
+                            <p class="card-text"><b>DELIVERY SERVICES:</b> Grab Food, Food Panda & OrderMo</p>
+                            <h5>Ratings</h5>
+                            <div class="height-100 container d-flex justify-content-center align-items-center">                               
+                                <div class="card p-3 stars">           
+                                    <div class="mt-1 d-flex justify-content-between align-items-center">
+                                        <h5 class="review-stat"><i class="fa-solid fa-utensils"></i> Food</h5>
+                                        <div class="small-ratings">
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                        </div>
+                                    </div>                                                                      
+                                    <div class="mt-1 d-flex justify-content-between align-items-center">
+                                        <h5 class="review-stat"><i class="fa-solid fa-bell-concierge"></i> Service</h5>
+                                        <div class="small-ratings">
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                        </div>
+                                    </div>                                    
+                                    <div class="mt-1 d-flex justify-content-between align-items-center">
+                                        <h5 class="review-stat"><i class="fa-solid fa-tag"></i>Price</h5>
+                                        <div class="small-ratings">
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                        </div>
+                                    </div>
+                                </div>     
+                            </div>
+                            <a href="https://www.facebook.com/mikelenmanila" target="_blank" rel="noopener no-referrer" class="btn btn-primary bottom" type="button"><i class="fa-solid fa-eye"></i> Visit Page</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="food/crabs.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Crabs</h3>
+                            <hr>
+                            <h5 class="card-subtitle">Details</h5>
+                            <br>
+                            <p class="card-text"><b>CUISINES:</b> Filipino, Seafoods</p>
+                            <p class="card-text"><b>MEALS:</b> </p>
+                            <p class="card-text"><b>DELIVERY SERVICES:</b> Grab Food, Food Panda & OrderMo</p>
+                            <h5>Ratings</h5>
+                            <div class="height-100 container d-flex justify-content-center align-items-center">                               
+                                <div class="card p-3 stars">           
+                                    <div class="mt-1 d-flex justify-content-between align-items-center">
+                                        <h5 class="review-stat"><i class="fa-solid fa-utensils"></i> Food</h5>
+                                        <div class="small-ratings">
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                        </div>
+                                    </div>                                                                      
+                                    <div class="mt-1 d-flex justify-content-between align-items-center">
+                                        <h5 class="review-stat"><i class="fa-solid fa-bell-concierge"></i> Service</h5>
+                                        <div class="small-ratings">
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                        </div>
+                                    </div>                                    
+                                    <div class="mt-1 d-flex justify-content-between align-items-center">
+                                        <h5 class="review-stat"><i class="fa-solid fa-tag"></i>Price</h5>
+                                        <div class="small-ratings">
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                            <i class="fa fa-star rating-color"></i>
+                                        </div>
+                                    </div>
+                                </div>     
+                            </div>
+                            <a href="https://www.facebook.com/bataanseafoodsanddelicacies/" target="_blank" rel="noopener no-referrer" class="btn btn-primary bottom" type="button"><i class="fa-solid fa-eye"></i> Visit Page</a>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <br><br><br>
+    </div>
+    <!--end of BATAAN FOOD-->
+     <!--start of RESORTS-->
+     <div class="container font  bckgrnd text-light">
+        <h1 class="text-center font text-dark"><b>"RESORT & HOTEL"</b></h1>
+        <br>
+        <div class="row g-3">
+            <!--gx for left and right  and gy for top and botom g for both-->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="hotels/anvaya.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Anvaya Cove</h3>
+                        <h5 class="card-subtitle text-secondary">Address: Morong Bataan</h5>
+                        <hr>
+                        <h5 class="card-subtitle">Details</h5>
+                        <br>
+                        <p class="card-text"><b>AMENITIES:</b><i class="fa-solid fa-person-swimming margin"></i> Beach & Pool <i class="fa-solid fa-wifi margin"></i> Free Internet <i class="fa-solid fa-mug-saucer margin"></i> Breakfast </p>
+                        <p class="card-text"><b>ROOM TYPES:</b><i class="fa-solid fa-people-group margin"></i>Family Room <i class="fa-solid fa-bed margin"></i> Suites <i class="fa-solid fa-ban-smoking margin"></i> Non-Smoking Room</p>
+                        <h5>Ratings</h5>
+                        <div class="height-100 container d-flex justify-content-center align-items-center">                               
+                            <div class="card p-3 stars">           
+                                <div class="mt-1 d-flex justify-content-between align-items-center">
+                                    <h5 class="review-stat"><i class="fa-solid fa-utensils"></i> Cleanliness</h5>
+                                    <div class="small-ratings">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                    </div>
+                                </div>                                                                      
+                                <div class="mt-1 d-flex justify-content-between align-items-center">
+                                    <h5 class="review-stat"><i class="fa-solid fa-bell-concierge"></i> Service</h5>
+                                    <div class="small-ratings">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                    </div>
+                                </div>                                    
+                                <div class="mt-1 d-flex justify-content-between align-items-center">
+                                    <h5 class="review-stat"><i class="fa-solid fa-tag"></i>Price</h5>
+                                    <div class="small-ratings">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                    </div>
+                                </div>
+                            </div>     
+                        </div>
+                        <p class="card-text text-danger h4"><b>"Special Promo"</b></p>
+                        <p class="card-text"> Book now using this website and receive "Free Dinner" during the stay.</p>
+                        <a class="btn btn-primary bottom" type="button" data-bs-toggle="modal" data-bs-target="#samplemodal1"><i class="fa-solid fa-cart-shopping"></i> Book Now</a>
+                        <a href="https://www.facebook.com/anvayaseabreeze" target="_blank" rel="noopener no-referrer" class="btn btn-primary bottom" type="button"><i class="fa-solid fa-eye"></i> Visit Page</a>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="hotels/brisa.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Brisa Marina</h3>
+                        <h5 class="card-subtitle text-secondary">Address: Morong Bataan</h5>
+                        <hr>
+                        <h5 class="card-subtitle">Details</h5>
+                        <br>
+                        <p class="card-text"><b>AMENITIES:</b><i class="fa-solid fa-person-swimming margin"></i> Beach & Pool <i class="fa-solid fa-wifi margin"></i> Free Internet <i class="fa-solid fa-mug-saucer margin"></i> Breakfast </p>
+                        <p class="card-text"><b>ROOM TYPES:</b><i class="fa-solid fa-people-group margin"></i>Family Room <i class="fa-solid fa-bed margin"></i> Suites <i class="fa-solid fa-ban-smoking margin"></i> Non-Smoking Room</p>
+                        <h5>Ratings</h5>
+                        <div class="height-100 container d-flex justify-content-center align-items-center">                               
+                            <div class="card p-3 stars">           
+                                <div class="mt-1 d-flex justify-content-between align-items-center">
+                                    <h5 class="review-stat"><i class="fa-solid fa-utensils"></i> Cleanliness</h5>
+                                    <div class="small-ratings">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                    </div>
+                                </div>                                                                      
+                                <div class="mt-1 d-flex justify-content-between align-items-center">
+                                    <h5 class="review-stat"><i class="fa-solid fa-bell-concierge"></i> Service</h5>
+                                    <div class="small-ratings">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                    </div>
+                                </div>                                    
+                                <div class="mt-1 d-flex justify-content-between align-items-center">
+                                    <h5 class="review-stat"><i class="fa-solid fa-tag"></i>Price</h5>
+                                    <div class="small-ratings">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                    </div>
+                                </div>
+                            </div>     
+                        </div>
+                        <p class="card-text text-danger h4"><b>"Special Promo"</b></p>
+                        <p class="card-text"> Book now using this website and receive "Free Dinner" during the stay.</p>
+                        <a class="btn btn-primary bottom" type="button" data-bs-toggle="modal" data-bs-target="#samplemodal2"><i class="fa-solid fa-cart-shopping"></i> Book Now</a>
+                        <a href="https://www.facebook.com/brisamarinabeachresort" target="_blank" rel="noopener no-referrer" class="btn btn-primary bottom" type="button"><i class="fa-solid fa-eye"></i> Visit Page</a>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="hotels/pan.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">PAN Resort</h3>
+                        <h5 class="card-subtitle text-secondary">Address: Abucay Bataan</h5>
+                        <hr>
+                        <h5 class="card-subtitle">Details</h5>
+                        <br>
+                        <p class="card-text"><b>AMENITIES:</b><i class="fa-solid fa-person-swimming margin"></i> Beach & Pool <i class="fa-solid fa-wifi margin"></i> Free Internet <i class="fa-solid fa-mug-saucer margin"></i> Breakfast </p>
+                        <p class="card-text"><b>ROOM TYPES:</b><i class="fa-solid fa-people-group margin"></i>Family Room <i class="fa-solid fa-bed margin"></i> Suites <i class="fa-solid fa-ban-smoking margin"></i> Non-Smoking Room</p>
+                        <h5>Ratings</h5>
+                        <div class="height-100 container d-flex justify-content-center align-items-center">                               
+                            <div class="card p-3 stars">           
+                                <div class="mt-1 d-flex justify-content-between align-items-center">
+                                    <h5 class="review-stat"><i class="fa-solid fa-utensils"></i> Cleanliness</h5>
+                                    <div class="small-ratings">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                    </div>
+                                </div>                                                                      
+                                <div class="mt-1 d-flex justify-content-between align-items-center">
+                                    <h5 class="review-stat"><i class="fa-solid fa-bell-concierge"></i> Service</h5>
+                                    <div class="small-ratings">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                    </div>
+                                </div>                                    
+                                <div class="mt-1 d-flex justify-content-between align-items-center">
+                                    <h5 class="review-stat"><i class="fa-solid fa-tag"></i>Price</h5>
+                                    <div class="small-ratings">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                    </div>
+                                </div>
+                            </div>     
+                        </div>
+                        <p class="card-text text-danger h4"><b>"Special Promo"</b></p>
+                        <p class="card-text"> Book now using this website and receive "Free Dinner" during the stay.</p>
+                        <a class="btn btn-primary bottom" type="button" data-bs-toggle="modal" data-bs-target="#samplemodal3"><i class="fa-solid fa-cart-shopping"></i> Book Now</a>
+                        <a href="https://www.facebook.com/pages/Pan-ResortHotel-Abucay-Bataan/710526185775741" target="_blank" rel="noopener no-referrer" class="btn btn-primary bottom" type="button"><i class="fa-solid fa-eye"></i> Visit Page</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="hotels/peninsula.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Grand Peninsula Suites</h3>
+                        <h5 class="card-subtitle text-secondary">Address: Balanga City</h5>
+                        <hr>
+                        <h5 class="card-subtitle">Details</h5>
+                        <br>
+                        <p class="card-text"><b>AMENITIES:</b><i class="fa-solid fa-person-swimming margin"></i> Beach & Pool <i class="fa-solid fa-wifi margin"></i> Free Internet <i class="fa-solid fa-mug-saucer margin"></i> Breakfast </p>
+                        <p class="card-text"><b>ROOM TYPES:</b><i class="fa-solid fa-people-group margin"></i>Family Room <i class="fa-solid fa-bed margin"></i> Suites <i class="fa-solid fa-ban-smoking margin"></i> Non-Smoking Room</p>
+                        <h5>Ratings</h5>
+                        <div class="height-100 container d-flex justify-content-center align-items-center">                               
+                            <div class="card p-3 stars">           
+                                <div class="mt-1 d-flex justify-content-between align-items-center">
+                                    <h5 class="review-stat"><i class="fa-solid fa-utensils"></i> Cleanliness</h5>
+                                    <div class="small-ratings">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                    </div>
+                                </div>                                                                      
+                                <div class="mt-1 d-flex justify-content-between align-items-center">
+                                    <h5 class="review-stat"><i class="fa-solid fa-bell-concierge"></i> Service</h5>
+                                    <div class="small-ratings">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                    </div>
+                                </div>                                    
+                                <div class="mt-1 d-flex justify-content-between align-items-center">
+                                    <h5 class="review-stat"><i class="fa-solid fa-tag"></i>Price</h5>
+                                    <div class="small-ratings">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                    </div>
+                                </div>
+                            </div>     
+                        </div>
+                        <p class="card-text text-danger h4"><b>"Special Promo"</b></p>
+                        <p class="card-text"> Book now using this website and receive "Free Dinner" during the stay.</p>
+                        <a class="btn btn-primary bottom" type="button" data-bs-toggle="modal" data-bs-target="#samplemodal4"><i class="fa-solid fa-cart-shopping"></i> Book Now</a>
+                        <a href="https://www.facebook.com/profile.php?id=100063613189336" target="_blank" rel="noopener no-referrer" class="btn btn-primary bottom" type="button"><i class="fa-solid fa-eye"></i> Visit Page</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="hotels/playa.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Playa La Caleta</h3>
+                        <h5 class="card-subtitle text-secondary">Address: Morong Bataan</h5>
+                        <hr>
+                        <h5 class="card-subtitle">Details</h5>
+                        <br>
+                        <p class="card-text"><b>AMENITIES:</b><i class="fa-solid fa-person-swimming margin"></i> Beach & Pool <i class="fa-solid fa-wifi margin"></i> Free Internet <i class="fa-solid fa-mug-saucer margin"></i> Breakfast </p>
+                        <p class="card-text"><b>ROOM TYPES:</b><i class="fa-solid fa-people-group margin"></i>Family Room <i class="fa-solid fa-bed margin"></i> Suites <i class="fa-solid fa-ban-smoking margin"></i> Non-Smoking Room</p>
+                        <h5>Ratings</h5>
+                        <div class="height-100 container d-flex justify-content-center align-items-center">                               
+                            <div class="card p-3 stars">           
+                                <div class="mt-1 d-flex justify-content-between align-items-center">
+                                    <h5 class="review-stat"><i class="fa-solid fa-utensils"></i> Cleanliness</h5>
+                                    <div class="small-ratings">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                    </div>
+                                </div>                                                                      
+                                <div class="mt-1 d-flex justify-content-between align-items-center">
+                                    <h5 class="review-stat"><i class="fa-solid fa-bell-concierge"></i> Service</h5>
+                                    <div class="small-ratings">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                    </div>
+                                </div>                                    
+                                <div class="mt-1 d-flex justify-content-between align-items-center">
+                                    <h5 class="review-stat"><i class="fa-solid fa-tag"></i>Price</h5>
+                                    <div class="small-ratings">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                    </div>
+                                </div>
+                            </div>     
+                        </div>
+                        <p class="card-text text-danger h4"><b>"Special Promo"</b></p>
+                        <p class="card-text"> Book now using this website and receive "Free Dinner" during the stay.</p>
+                        <a class="btn btn-primary bottom" type="button" data-bs-toggle="modal" data-bs-target="#samplemodal5"><i class="fa-solid fa-cart-shopping"></i> Book Now</a>
+                        <a href="https://www.facebook.com/playalacaletabataan" target="_blank" rel="noopener no-referrer" class="btn btn-primary bottom" type="button"><i class="fa-solid fa-eye"></i> Visit Page</a>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="hotels/plaza.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">The Plaza Hotel Balanga</h3>
+                        <h5 class="card-subtitle text-secondary">Address: Balanga City</h5>
+                        <hr>
+                        <h5 class="card-subtitle">Details</h5>
+                        <br>
+                        <p class="card-text"><b>AMENITIES:</b><i class="fa-solid fa-person-swimming margin"></i> Beach & Pool <i class="fa-solid fa-wifi margin"></i> Free Internet <i class="fa-solid fa-mug-saucer margin"></i> Breakfast </p>
+                        <p class="card-text"><b>ROOM TYPES:</b><i class="fa-solid fa-people-group margin"></i>Family Room <i class="fa-solid fa-bed margin"></i> Suites <i class="fa-solid fa-ban-smoking margin"></i> Non-Smoking Room</p>
+                        <h5>Ratings</h5>
+                        <div class="height-100 container d-flex justify-content-center align-items-center">                               
+                            <div class="card p-3 stars">           
+                                <div class="mt-1 d-flex justify-content-between align-items-center">
+                                    <h5 class="review-stat"><i class="fa-solid fa-utensils"></i> Cleanliness</h5>
+                                    <div class="small-ratings">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                    </div>
+                                </div>                                                                      
+                                <div class="mt-1 d-flex justify-content-between align-items-center">
+                                    <h5 class="review-stat"><i class="fa-solid fa-bell-concierge"></i> Service</h5>
+                                    <div class="small-ratings">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                    </div>
+                                </div>                                    
+                                <div class="mt-1 d-flex justify-content-between align-items-center">
+                                    <h5 class="review-stat"><i class="fa-solid fa-tag"></i>Price</h5>
+                                    <div class="small-ratings">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                    </div>
+                                </div>
+                            </div>     
+                        </div>
+                        <p class="card-text text-danger h4"><b>"Special Promo"</b></p>
+                        <p class="card-text"> Book now using this website and receive "Free Dinner" during the stay.</p>
+                        <a class="btn btn-primary bottom" type="button" data-bs-toggle="modal" data-bs-target="#samplemodal6"><i class="fa-solid fa-cart-shopping"></i> Book Now</a>
+                        <a href="https://www.facebook.com/gapplazahotel" target="_blank" rel="noopener no-referrer" class="btn btn-primary bottom" type="button"><i class="fa-solid fa-eye"></i> Visit Page</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div> 
+    <!--end of resort-->
+    <!--start of modal-->
+    <div class="modal fade font" id="samplemodal1">
+        <div class="modal-dialog modal-lg">
+            <!--modal sizes,lg,sm,xl,fullscreen-->
+            <div class="modal-content">
+                <div class="modal-header darkblue">
+                    <h2 class="text-white darkblue"><b>HOTEL RESERVATION</b></h2>
+                </div>
+                <div class="modal-body reserve">                   
+                    <form action="method">
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="name"><b>Full Name</b></label>
+                                <input type="text" name="name" class="form-control">
+                            </div> 
+                            <div class="col-12">
+                                <label for="email"><b>Email</b></label>
+                            <input type="text" name="email" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label for="number"><b>Mobile Number</b></label>
+                            <input type="text" name="Number" class="form-control">
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="col-6">
+                                <label for="checkin"><b>Check-In</b></label>
+                                <input type="Date" name="checkin">
+                            </div>
+                            <br>
+                            <br>
+                            <div class="col-6">
+                                <label for="time"><b>Time In</b></label>
+                                <select name="time">
+                                <option>8AM to 8PM</option>
+                                <option>8PM to 8AM</option>
+                                </select>
+                            </div>
+                            <div class="col-6">
+                                <label for="checkout"><b>Check-Out</b></label>
+                                <input type="Date" name="checkout">
+                            </div>
+                            <div class="col-6">
+                                <label for="time"><b>Time Out</b></label>
+                                <select name="time">
+                                <option>8AM to 8PM</option>
+                                <option>8PM to 8AM</option>
+                                </select>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="col-12">
+                                <label for="preference"><b>Room Type</b></label><br/>
+                                <input type="radio" value="Standard" name="preference">Standard
+                                <input type="radio" value="Deluxe" name="preference">Deluxe
+                                <input type="radio" value="Suites" name="preference">Suites                       
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="col-12">
+                                <label for="room"><b>How many rooms needed</b></label>
+                                <input type="text" name="room" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label for="pax"><b>How many guest</b></label>
+                                <input type="text" name="pax" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label for="comments"><b>Special request</b></label>
+                                <textarea name="comments"  class="form-control" rows="5"></textarea>
+                            </div>                          
+                        </div>
+                    </form>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade font" id="samplemodal2">
+        <div class="modal-dialog modal-lg">
+            <!--modal sizes,lg,sm,xl,fullscreen-->
+            <div class="modal-content">
+                <div class="modal-header darkblue">
+                    <h2 class="text-white darkblue"><b>HOTEL RESERVATION</b></h2>
+                </div>
+                <div class="modal-body reserve">                   
+                    <form action="method">
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="name"><b>Full Name</b></label>
+                                <input type="text" name="name" class="form-control">
+                            </div> 
+                            <div class="col-12">
+                                <label for="email"><b>Email</b></label>
+                            <input type="text" name="email" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label for="number"><b>Mobile Number</b></label>
+                            <input type="text" name="Number" class="form-control">
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="col-6">
+                                <label for="checkin"><b>Check-In</b></label>
+                                <input type="Date" name="checkin">
+                            </div>
+                            <br>
+                            <br>
+                            <div class="col-6">
+                                <label for="time"><b>Time In</b></label>
+                                <select name="time">
+                                <option>8AM to 8PM</option>
+                                <option>8PM to 8AM</option>
+                                </select>
+                            </div>
+                            <div class="col-6">
+                                <label for="checkout"><b>Check-Out</b></label>
+                                <input type="Date" name="checkout">
+                            </div>
+                            <div class="col-6">
+                                <label for="time"><b>Time Out</b></label>
+                                <select name="time">
+                                <option>8AM to 8PM</option>
+                                <option>8PM to 8AM</option>
+                                </select>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="col-12">
+                                <label for="preference"><b>Room Type</b></label><br/>
+                                <input type="radio" value="Standard" name="preference">Standard
+                                <input type="radio" value="Deluxe" name="preference">Deluxe
+                                <input type="radio" value="Suites" name="preference">Suites                       
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="col-12">
+                                <label for="room"><b>How many rooms needed</b></label>
+                                <input type="text" name="room" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label for="pax"><b>How many guest</b></label>
+                                <input type="text" name="pax" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label for="comments"><b>Special request</b></label>
+                                <textarea name="comments"  class="form-control" rows="5"></textarea>
+                            </div>                          
+                        </div>
+                    </form>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade font" id="samplemodal3">
+        <div class="modal-dialog modal-lg">
+            <!--modal sizes,lg,sm,xl,fullscreen-->
+            <div class="modal-content">
+                <div class="modal-header darkblue">
+                    <h2 class="text-white darkblue"><b>HOTEL RESERVATION</b></h2>
+                </div>
+                <div class="modal-body reserve">                   
+                    <form action="method">
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="name"><b>Full Name</b></label>
+                                <input type="text" name="name" class="form-control">
+                            </div> 
+                            <div class="col-12">
+                                <label for="email"><b>Email</b></label>
+                            <input type="text" name="email" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label for="number"><b>Mobile Number</b></label>
+                            <input type="text" name="Number" class="form-control">
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="col-6">
+                                <label for="checkin"><b>Check-In</b></label>
+                                <input type="Date" name="checkin">
+                            </div>
+                            <br>
+                            <br>
+                            <div class="col-6">
+                                <label for="time"><b>Time In</b></label>
+                                <select name="time">
+                                <option>8AM to 8PM</option>
+                                <option>8PM to 8AM</option>
+                                </select>
+                            </div>
+                            <div class="col-6">
+                                <label for="checkout"><b>Check-Out</b></label>
+                                <input type="Date" name="checkout">
+                            </div>
+                            <div class="col-6">
+                                <label for="time"><b>Time Out</b></label>
+                                <select name="time">
+                                <option>8AM to 8PM</option>
+                                <option>8PM to 8AM</option>
+                                </select>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="col-12">
+                                <label for="preference"><b>Room Type</b></label><br/>
+                                <input type="radio" value="Standard" name="preference">Standard
+                                <input type="radio" value="Deluxe" name="preference">Deluxe
+                                <input type="radio" value="Suites" name="preference">Suites                       
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="col-12">
+                                <label for="room"><b>How many rooms needed</b></label>
+                                <input type="text" name="room" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label for="pax"><b>How many guest</b></label>
+                                <input type="text" name="pax" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label for="comments"><b>Special request</b></label>
+                                <textarea name="comments"  class="form-control" rows="5"></textarea>
+                            </div>                          
+                        </div>
+                    </form>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade font" id="samplemodal4">
+        <div class="modal-dialog modal-lg">
+            <!--modal sizes,lg,sm,xl,fullscreen-->
+            <div class="modal-content">
+                <div class="modal-header darkblue">
+                    <h2 class="text-white darkblue"><b>HOTEL RESERVATION</b></h2>
+                </div>
+                <div class="modal-body reserve">                   
+                    <form action="method">
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="name"><b>Full Name</b></label>
+                                <input type="text" name="name" class="form-control">
+                            </div> 
+                            <div class="col-12">
+                                <label for="email"><b>Email</b></label>
+                            <input type="text" name="email" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label for="number"><b>Mobile Number</b></label>
+                            <input type="text" name="Number" class="form-control">
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="col-6">
+                                <label for="checkin"><b>Check-In</b></label>
+                                <input type="Date" name="checkin">
+                            </div>
+                            <br>
+                            <br>
+                            <div class="col-6">
+                                <label for="time"><b>Time In</b></label>
+                                <select name="time">
+                                <option>8AM to 8PM</option>
+                                <option>8PM to 8AM</option>
+                                </select>
+                            </div>
+                            <div class="col-6">
+                                <label for="checkout"><b>Check-Out</b></label>
+                                <input type="Date" name="checkout">
+                            </div>
+                            <div class="col-6">
+                                <label for="time"><b>Time Out</b></label>
+                                <select name="time">
+                                <option>8AM to 8PM</option>
+                                <option>8PM to 8AM</option>
+                                </select>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="col-12">
+                                <label for="preference"><b>Room Type</b></label><br/>
+                                <input type="radio" value="Standard" name="preference">Standard
+                                <input type="radio" value="Deluxe" name="preference">Deluxe
+                                <input type="radio" value="Suites" name="preference">Suites                       
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="col-12">
+                                <label for="room"><b>How many rooms needed</b></label>
+                                <input type="text" name="room" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label for="pax"><b>How many guest</b></label>
+                                <input type="text" name="pax" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label for="comments"><b>Special request</b></label>
+                                <textarea name="comments"  class="form-control" rows="5"></textarea>
+                            </div>                          
+                        </div>
+                    </form>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade font" id="samplemodal5">
+        <div class="modal-dialog modal-lg">
+            <!--modal sizes,lg,sm,xl,fullscreen-->
+            <div class="modal-content">
+                <div class="modal-header darkblue">
+                    <h2 class="text-white darkblue"><b>HOTEL RESERVATION</b></h2>
+                </div>
+                <div class="modal-body reserve">                   
+                    <form action="method">
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="name"><b>Full Name</b></label>
+                                <input type="text" name="name" class="form-control">
+                            </div> 
+                            <div class="col-12">
+                                <label for="email"><b>Email</b></label>
+                            <input type="text" name="email" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label for="number"><b>Mobile Number</b></label>
+                            <input type="text" name="Number" class="form-control">
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="col-6">
+                                <label for="checkin"><b>Check-In</b></label>
+                                <input type="Date" name="checkin">
+                            </div>
+                            <br>
+                            <br>
+                            <div class="col-6">
+                                <label for="time"><b>Time In</b></label>
+                                <select name="time">
+                                <option>8AM to 8PM</option>
+                                <option>8PM to 8AM</option>
+                                </select>
+                            </div>
+                            <div class="col-6">
+                                <label for="checkout"><b>Check-Out</b></label>
+                                <input type="Date" name="checkout">
+                            </div>
+                            <div class="col-6">
+                                <label for="time"><b>Time Out</b></label>
+                                <select name="time">
+                                <option>8AM to 8PM</option>
+                                <option>8PM to 8AM</option>
+                                </select>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="col-12">
+                                <label for="preference"><b>Room Type</b></label><br/>
+                                <input type="radio" value="Standard" name="preference">Standard
+                                <input type="radio" value="Deluxe" name="preference">Deluxe
+                                <input type="radio" value="Suites" name="preference">Suites                       
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="col-12">
+                                <label for="room"><b>How many rooms needed</b></label>
+                                <input type="text" name="room" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label for="pax"><b>How many guest</b></label>
+                                <input type="text" name="pax" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label for="comments"><b>Special request</b></label>
+                                <textarea name="comments"  class="form-control" rows="5"></textarea>
+                            </div>                          
+                        </div>
+                    </form>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade font" id="samplemodal6">
+        <div class="modal-dialog modal-lg">
+            <!--modal sizes,lg,sm,xl,fullscreen-->
+            <div class="modal-content">
+                <div class="modal-header darkblue">
+                    <h2 class="text-white darkblue"><b>HOTEL RESERVATION</b></h2>
+                </div>
+                <div class="modal-body reserve">                   
+                    <form action="method">
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="name"><b>Full Name</b></label>
+                                <input type="text" name="name" class="form-control">
+                            </div> 
+                            <div class="col-12">
+                                <label for="email"><b>Email</b></label>
+                            <input type="text" name="email" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label for="number"><b>Mobile Number</b></label>
+                            <input type="text" name="Number" class="form-control">
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="col-6">
+                                <label for="checkin"><b>Check-In</b></label>
+                                <input type="Date" name="checkin">
+                            </div>
+                            <br>
+                            <br>
+                            <div class="col-6">
+                                <label for="time"><b>Time In</b></label>
+                                <select name="time">
+                                <option>8AM to 8PM</option>
+                                <option>8PM to 8AM</option>
+                                </select>
+                            </div>
+                            <div class="col-6">
+                                <label for="checkout"><b>Check-Out</b></label>
+                                <input type="Date" name="checkout">
+                            </div>
+                            <div class="col-6">
+                                <label for="time"><b>Time Out</b></label>
+                                <select name="time">
+                                <option>8AM to 8PM</option>
+                                <option>8PM to 8AM</option>
+                                </select>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="col-12">
+                                <label for="preference"><b>Room Type</b></label><br/>
+                                <input type="radio" value="Standard" name="preference">Standard
+                                <input type="radio" value="Deluxe" name="preference">Deluxe
+                                <input type="radio" value="Suites" name="preference">Suites                       
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="col-12">
+                                <label for="room"><b>How many rooms needed</b></label>
+                                <input type="text" name="room" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label for="pax"><b>How many guest</b></label>
+                                <input type="text" name="pax" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label for="comments"><b>Special request</b></label>
+                                <textarea name="comments"  class="form-control" rows="5"></textarea>
+                            </div>                          
+                        </div>
+                    </form>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <br>
+    <br>
+    <br>
+    <br> 
+    <!--end of modal-->
+    <!--start of comment section-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+                <form action="">
+                    <label for="Comments" class="h4"><b>Leave a comment:</b></label>
+                    <textarea name="comments"  class="form-control" rows="5"></textarea>
+                    <br>
+                    <input type="submit" class="btn btn-primary w-10">
+                </form>              
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>    
+    <!--end of comment section-->
+    <!--start of footer-->
+    <div class="container-fluid text-white p-3 darkblue text-center">
+        <hr>
+        <h5>© 2023 - 1Travel. All Rights Reserved / Sponsored by: <i>1Bataan</i></h5>
+        <p>Bataan Emergency Hotline: 911</p>
+        </div>   
+    <!--end of footer-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
